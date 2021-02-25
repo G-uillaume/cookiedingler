@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/cookiedingler/static/js/main.2dbc4347.chunk.js",
-    "main.js.map": "/cookiedingler/static/js/main.2dbc4347.chunk.js.map",
+    "main.js": "/cookiedingler/static/js/main.ebc599b1.chunk.js",
+    "main.js.map": "/cookiedingler/static/js/main.ebc599b1.chunk.js.map",
     "runtime-main.js": "/cookiedingler/static/js/runtime-main.51ec2ff4.js",
     "runtime-main.js.map": "/cookiedingler/static/js/runtime-main.51ec2ff4.js.map",
     "static/js/2.904495bb.chunk.js": "/cookiedingler/static/js/2.904495bb.chunk.js",
@@ -13,6 +13,6 @@
   "entrypoints": [
     "static/js/runtime-main.51ec2ff4.js",
     "static/js/2.904495bb.chunk.js",
-    "static/js/main.2dbc4347.chunk.js"
+    "static/js/main.ebc599b1.chunk.js"
   ]
 }
