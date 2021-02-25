@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.js": "/cookiedingler/static/js/main.ebc599b1.chunk.js",
-    "main.js.map": "/cookiedingler/static/js/main.ebc599b1.chunk.js.map",
+    "main.css": "/cookiedingler/static/css/main.bcb8f587.chunk.css",
+    "main.js": "/cookiedingler/static/js/main.185ce0aa.chunk.js",
+    "main.js.map": "/cookiedingler/static/js/main.185ce0aa.chunk.js.map",
     "runtime-main.js": "/cookiedingler/static/js/runtime-main.51ec2ff4.js",
     "runtime-main.js.map": "/cookiedingler/static/js/runtime-main.51ec2ff4.js.map",
-    "static/js/2.904495bb.chunk.js": "/cookiedingler/static/js/2.904495bb.chunk.js",
-    "static/js/2.904495bb.chunk.js.map": "/cookiedingler/static/js/2.904495bb.chunk.js.map",
+    "static/js/2.d8b96066.chunk.js": "/cookiedingler/static/js/2.d8b96066.chunk.js",
+    "static/js/2.d8b96066.chunk.js.map": "/cookiedingler/static/js/2.d8b96066.chunk.js.map",
     "index.html": "/cookiedingler/index.html",
-    "static/js/2.904495bb.chunk.js.LICENSE.txt": "/cookiedingler/static/js/2.904495bb.chunk.js.LICENSE.txt",
+    "static/css/main.bcb8f587.chunk.css.map": "/cookiedingler/static/css/main.bcb8f587.chunk.css.map",
+    "static/js/2.d8b96066.chunk.js.LICENSE.txt": "/cookiedingler/static/js/2.d8b96066.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cookiedingler/static/media/background.805cee8d.jpg",
     "static/media/cookie.4da474b0.jpeg": "/cookiedingler/static/media/cookie.4da474b0.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.51ec2ff4.js",
-    "static/js/2.904495bb.chunk.js",
-    "static/js/main.ebc599b1.chunk.js"
+    "static/js/2.d8b96066.chunk.js",
+    "static/css/main.bcb8f587.chunk.css",
+    "static/js/main.185ce0aa.chunk.js"
   ]
 }
