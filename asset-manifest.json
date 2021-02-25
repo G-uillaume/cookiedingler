@@ -1,23 +1,18 @@
 {
   "files": {
-    "main.css": "/cookiedingler/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/cookiedingler/static/js/main.7530ffe1.chunk.js",
-    "main.js.map": "/cookiedingler/static/js/main.7530ffe1.chunk.js.map",
-    "runtime-main.js": "/cookiedingler/static/js/runtime-main.406d4829.js",
-    "runtime-main.js.map": "/cookiedingler/static/js/runtime-main.406d4829.js.map",
-    "static/js/2.7151f7ef.chunk.js": "/cookiedingler/static/js/2.7151f7ef.chunk.js",
-    "static/js/2.7151f7ef.chunk.js.map": "/cookiedingler/static/js/2.7151f7ef.chunk.js.map",
-    "static/js/3.2e148394.chunk.js": "/cookiedingler/static/js/3.2e148394.chunk.js",
-    "static/js/3.2e148394.chunk.js.map": "/cookiedingler/static/js/3.2e148394.chunk.js.map",
+    "main.js": "/cookiedingler/static/js/main.2dbc4347.chunk.js",
+    "main.js.map": "/cookiedingler/static/js/main.2dbc4347.chunk.js.map",
+    "runtime-main.js": "/cookiedingler/static/js/runtime-main.51ec2ff4.js",
+    "runtime-main.js.map": "/cookiedingler/static/js/runtime-main.51ec2ff4.js.map",
+    "static/js/2.904495bb.chunk.js": "/cookiedingler/static/js/2.904495bb.chunk.js",
+    "static/js/2.904495bb.chunk.js.map": "/cookiedingler/static/js/2.904495bb.chunk.js.map",
     "index.html": "/cookiedingler/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/cookiedingler/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.7151f7ef.chunk.js.LICENSE.txt": "/cookiedingler/static/js/2.7151f7ef.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/cookiedingler/static/media/logo.6ce24c58.svg"
+    "static/js/2.904495bb.chunk.js.LICENSE.txt": "/cookiedingler/static/js/2.904495bb.chunk.js.LICENSE.txt",
+    "static/media/cookie.4da474b0.jpeg": "/cookiedingler/static/media/cookie.4da474b0.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.406d4829.js",
-    "static/js/2.7151f7ef.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7530ffe1.chunk.js"
+    "static/js/runtime-main.51ec2ff4.js",
+    "static/js/2.904495bb.chunk.js",
+    "static/js/main.2dbc4347.chunk.js"
   ]
 }
