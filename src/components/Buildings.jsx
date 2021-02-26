@@ -3,51 +3,54 @@ import React from 'react';
 import Building from './Building';
 
 class Buildings extends React.Component {
-    state = {
-        buildings: [
-            {   
-                id: 1,
-                name: "Productor",
-                price: 15,
-                numberOfBuilding: 0,
-                cookiesPerSec : 0.1,
-            },
-            {   
-                id: 2,
-                name: "Royalties",
-                price: 100,
-                numberOfBuilding: 0,
-                cookiesPerSec : 1,
-            },
-            {   
-                id: 3,
-                name: "Album",
-                price: 1000,
-                numberOfBuilding: 0,
-                cookiesPerSec : 8,
-            },
-            {   
-                id: 4,
-                name: "Concert at Olympia",
-                price: 12000,
-                numberOfBuilding: 0,
-                cookiesPerSec : 47,
-            },
-            {   
-                id: 5,
-                name: "Grammy Award",
-                price: 130000,
-                numberOfBuilding: 0,
-                cookiesPerSec : 260,
-            },
-            {   
-                id: 6,
-                name: "Passed away from an overdose",
-                price: 1400000,
-                numberOfBuilding: 0,
-                cookiesPerSec : 1400,
-            },
-        ],
+    constructor(props) {
+        super(props)
+        this.state = {
+            buildings: [
+                {   
+                    id: 1,
+                    name: "Productor",
+                    price: 15,
+                    numberOfBuilding: 0,
+                    cookiesPerSec : 0.1,
+                },
+                {   
+                    id: 2,
+                    name: "Royalties",
+                    price: 100,
+                    numberOfBuilding: 0,
+                    cookiesPerSec : 1,
+                },
+                {   
+                    id: 3,
+                    name: "Album",
+                    price: 1000,
+                    numberOfBuilding: 0,
+                    cookiesPerSec : 8,
+                },
+                {   
+                    id: 4,
+                    name: "Concert at Olympia",
+                    price: 12000,
+                    numberOfBuilding: 0,
+                    cookiesPerSec : 47,
+                },
+                {   
+                    id: 5,
+                    name: "Grammy Award",
+                    price: 130000,
+                    numberOfBuilding: 0,
+                    cookiesPerSec : 260,
+                },
+                {   
+                    id: 6,
+                    name: "Passed away from an overdose",
+                    price: 1400000,
+                    numberOfBuilding: 0,
+                    cookiesPerSec : 1400,
+                },
+            ],
+        }
     }
 
     handleClick = (id) => {
@@ -59,7 +62,7 @@ class Buildings extends React.Component {
             buildings[index].price = Math.floor(buildings[index].price * 1.15);
             buildings[index].numberOfBuilding++
             buildings.push({
-                id: 450,
+                id: new Date().getTime(),
                 name: "zeojzeo",
                 price: 345432,
                 numberOfBuilding: 45,
