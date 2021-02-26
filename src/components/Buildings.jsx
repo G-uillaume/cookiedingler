@@ -4,7 +4,7 @@ import Building from './Building';
 
 class Buildings extends React.Component {
     state = {
-        useStatebuildings: [
+        buildings: [
             {   
                 id: 1,
                 name: "Productor",
@@ -58,6 +58,14 @@ class Buildings extends React.Component {
             this.props.onUpdatePerSec(buildings[index].cookiesPerSec);
             buildings[index].price = Math.floor(buildings[index].price * 1.15);
             buildings[index].numberOfBuilding++
+            buildings.push({
+                id: 450,
+                name: "zeojzeo",
+                price: 345432,
+                numberOfBuilding: 45,
+                cookiesPerSec: 4455666
+            })
+            console.log(buildings, this.state.buildings)
             this.setState({ buildings });
         }
     }

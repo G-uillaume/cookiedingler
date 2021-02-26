@@ -3,7 +3,7 @@ import img from '../img/cookie.jpeg';
 
 class Cookie extends React.Component {
 
-    render() {
+    render() { 
         return (
             <div id="cookie">
                 <img onClick={() => {

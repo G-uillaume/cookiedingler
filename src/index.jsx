@@ -34,8 +34,8 @@ class App extends React.Component {
     }
     
     interval = setInterval(() => {
-        console.log('coucou')
         if (this.state.cookiesPerSec > 0) {
+            console.log('coucou')
             this.updateCookies(this.state.cookiesPerSec)
             this.updateTotalCookies(this.state.cookiesPerSec)
         }
@@ -45,7 +45,7 @@ class App extends React.Component {
         
         return(
             <>
-                <h1>Welcome to the Cookie Dingler clicker !</h1>
+                <h1>Welcome to the Cookie Dingler clicker !!</h1>
                 <main>
                     <SideBar>
                         <Buildings 

@@ -5,11 +5,11 @@ class Building extends React.Component {
     render() {
         return (
             <div className="buildings" id={ "building" + this.props.details.id}>
-                <div>
-                    <h3>{this.props.details.name}</h3>
-                    <button onClick={() => this.props.onUpdateBuilding(this.props.details.id)}>Get it</button>
+                <div className="buildingLeft">
+                    {/* <h3>{this.props.details.name}</h3> */}
+                    <button onClick={() => this.props.onUpdateBuilding(this.props.details.id)}>{this.props.details.name} <small>({this.props.details.cookiesPerSec} fan(s)/s)</small></button>
                 </div>
-                <div>
+                <div className="buildingRight">
                     <p>Price = {this.props.details.price}</p>
                     <p>You have {this.props.details.numberOfBuilding}</p>
                 </div>
