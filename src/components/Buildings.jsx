@@ -54,20 +54,25 @@ class Buildings extends React.Component {
     }
 
     handleClick = (id) => {
-        let buildings = [...this.state.buildings]; // = this.state.buildings.slice();
-        const index = buildings.findIndex(building => building.id === id); // utile ???
-        if (this.props.getCount >= buildings[index].price) { 
+        const index = this.state.buildings.findIndex(building => building.id === id); // utile ???
+        if (this.props.getCount >= this.state.buildings[index].price) { 
+            const building = {
+                ...this.state.buildings[index],
+                numberOfBuilding: this.state.buildings[index].numberOfBuilding+1,
+                price: Math.floor(this.state.buildings[index].price * 1.25)
+            }
+
+            const buildings = [
+                ...this.state.buildings.slice(0, index),
+                building, 
+                ...this.state.buildings.slice(index+1),
+            ]
+
             this.props.onUpdateCookies(-buildings[index].price);
             this.props.onUpdatePerSec(buildings[index].cookiesPerSec);
-            buildings[index].price = Math.floor(buildings[index].price * 1.15);
-            buildings[index].numberOfBuilding++
-            buildings.push({
-                id: new Date().getTime(),
-                name: "zeojzeo",
-                price: 345432,
-                numberOfBuilding: 45,
-                cookiesPerSec: 4455666
-            })
+            // buildings[index].price = Math.floor(buildings[index].price * 1.15);
+            // buildings[index].numberOfBuilding++
+
             console.log(buildings, this.state.buildings)
             this.setState({ buildings });
         }
